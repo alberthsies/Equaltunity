@@ -4,11 +4,11 @@ body{
 
 /* for row, align-items is vertical, justify-content is horizontal
    for column, align-items is horizontal, justiy-content is vertical*/
-/* button {
+button {
     cursor:pointer;
     background-color: transparent;
     border:none;
-}  */
+} 
 
 header {
     background-color: #CD5C5C;
@@ -21,7 +21,7 @@ header {
     /* border: 2px solid whitesmoke; */
     height: 10%;
 }
-header section{
+header .section{
     width: 20%;
 }
 
@@ -38,10 +38,6 @@ header .header-logo {
     align-items: flex-end;
 }
 
-header img{
-    width:30px;
-}
-
 
 header .header-logo-content {
     color: black;
@@ -55,12 +51,10 @@ header .header-navigate{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    align-self: flex-end;
 }
 
-header .header-navigate img {
-    width:30px;
-    height:100%;
+header .header-navigate .menu {
+    height:80%;
 }
 
 footer {
