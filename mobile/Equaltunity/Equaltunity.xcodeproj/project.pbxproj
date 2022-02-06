@@ -13,6 +13,7 @@
 		95C336A927AF2312001322DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C336A827AF2312001322DE /* Assets.xcassets */; };
 		95C336AC27AF2312001322DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C336AB27AF2312001322DE /* Preview Assets.xcassets */; };
 		95C336AF27AF2312001322DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C336AD27AF2312001322DE /* LaunchScreen.storyboard */; };
+		95C336B727AF427B001322DE /* CompanyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C336B627AF427B001322DE /* CompanyListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		95C336AB27AF2312001322DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95C336AE27AF2312001322DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95C336B027AF2312001322DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C336B627AF427B001322DE /* CompanyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				95C336A227AF2311001322DE /* AppDelegate.swift */,
 				95C336A427AF2311001322DE /* SceneDelegate.swift */,
 				95C336A627AF2311001322DE /* ContentView.swift */,
+				95C336B627AF427B001322DE /* CompanyListView.swift */,
 				95C336A827AF2312001322DE /* Assets.xcassets */,
 				95C336AD27AF2312001322DE /* LaunchScreen.storyboard */,
 				95C336B027AF2312001322DE /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				95C336A327AF2311001322DE /* AppDelegate.swift in Sources */,
 				95C336A527AF2311001322DE /* SceneDelegate.swift in Sources */,
+				95C336B727AF427B001322DE /* CompanyListView.swift in Sources */,
 				95C336A727AF2311001322DE /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

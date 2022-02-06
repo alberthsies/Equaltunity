@@ -21,17 +21,19 @@ struct ContentView: View {
                 .shadow(radius: 7)
             
             Text("Equaltunity")
-                .font(.title).multilineTextAlignment(.leading)
+                .font(.title)
+                .multilineTextAlignment(.leading)
             
             TextField("Username", text: $username)
                 .frame(height: 40.0)
                 .disableAutocorrection(true)
                 .padding(5)
-                
-            TextField("Password", text: $password)
+            
+            SecureField("Password", text: $password)
                 .frame(height: 40.0)
                 .disableAutocorrection(true)
                 .padding(5)
+
             
             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                 Text("Login")
@@ -45,7 +47,10 @@ struct ContentView: View {
                     .stroke(Color.blue, lineWidth: 3)
                 )
             }
-        }.padding()
+        }
+        .padding()
+        .frame(height: 1000.0)
+        .background(Color.init(red: 0.71, green: 0.84, blue: 0.88))
     }
 }
 
