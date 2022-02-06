@@ -4,9 +4,7 @@
 ## Inspiration
 Diversity is crucial for creativity and productivity. However, gender inequality is a common situation in nowadays tech industry and other related fields. According to  National Center for Women & Information Technology (NCWIT), women only make up about 25% of the total workforce in technology. Meanwhile, female resumes received by companies are also out of balance. Therefore, we want to promote diversity in the workforce by constructing a platform that will provide an equal proportion of resumes for all genders. 
 
-![Mobile Login Page](image/login.png)
-![Mobile Company List](image/mobile-companylist.png)
-![Mobile User Info Page](image/mobile-user.png)
+![Mobile Interface](image/mobile.png)
 
 ## What it does
 The Equaltunity Application provides both web and mobile interface for candidates to apply for companies they are interested in.
