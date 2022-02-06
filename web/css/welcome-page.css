@@ -1,0 +1,82 @@
+main {
+    min-height: 75vh;
+    top: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+main .main-left {
+    height: 100%;
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .main-left .login-content{
+    padding-right: 20%;
+    position: relative;
+    width: 65%;
+    height: 30%;
+    padding-bottom: 10px;
+}
+
+main .main-left .welcome-button {
+    /* border: 2px solid red; */
+    position: relative;
+    width: 65%;
+    height: 10%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .main-right {
+    height: 100%;
+    width: 30%;
+    right: 0%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #E7ECED;
+    border-radius: 10px;
+}
+
+main .main-right h2{
+    margin-block-end: 0.70em;
+    font-size: 1.2em;
+}
+main .main-right .user-login{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+main .main-right label{
+    margin-top:5px;
+}
+main .main-right button{
+    width: 60px;
+    margin-top:5px;
+}
+
+main .main-right .container{
+    display:flex;
+    flex-direction: column;
+    border: solid, 2px;
+}
+
+main .main-right .third-party-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+main .main-right .third-party-login p{
+    font-size: 2em;
+    margin-block-start:0.5em;
+    margin-block-end:0.5em;
+}

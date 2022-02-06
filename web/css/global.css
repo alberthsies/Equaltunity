@@ -1,0 +1,173 @@
+body{
+    background-color: #B4D6E0;
+    margin:0px;
+    font-family: 'Bree Serif', serif;
+}
+
+
+/* for row, align-items is vertical, justify-content is horizontal
+   for column, align-items is horizontal, justiy-content is vertical*/
+/* button {
+    cursor:pointer;
+    background-color: transparent;
+    border:none;
+}  */
+
+header {
+    background-color: #2D3246;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    /* border: 2px solid whitesmoke; */
+    height: 10%;
+}
+header section{
+    width: 20%;
+}
+
+/*logo section*/
+header .header-logo {
+    /* position:absolute; */
+    /* border: 2px solid red; */
+    display:flex;
+    padding: 10px;
+    padding-left: 22px;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+header img{
+    width:40px;
+}
+
+
+header .header-logo-content {
+    color: whitesmoke;
+    position: relative;
+    text-align: center;    
+}
+
+/* search-section */
+header .header-navigate{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 10px;
+}
+
+header .header-navigate img {
+    width:30px;
+    height:100%;
+    filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(158deg) brightness(103%) contrast(100%);
+}
+
+header p{
+    color:whitesmoke;
+    padding-right: 22px;
+}
+
+footer {
+    background-color: #2D3246;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    /* position:absolute; */
+    /* border:2px solid red; */
+    min-height:10%;
+    width:100%;
+    bottom: 0%;
+}
+
+footer .foot-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* position: relative; */
+    width: 50%;
+    height:100%;
+    /* border: 2px solid white; */
+}
+
+footer .foot-left img {
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(158deg) brightness(103%) contrast(100%);
+    
+}
+/* why i can't put footer .footer-left h6{}? the function will not be implemented if I use this.*/
+footer .foot-left h6 {
+    color: #FFF;
+    font-weight:lighter;
+    font-size: 16px;
+}
+
+footer .foot-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    /* position: relative; */
+    width: 50%;
+    height:100%;
+    /* border: 2px solid white; */
+}
+
+footer .foot-right .social-media-icon {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 60px;
+    height: 50%;
+    position: relative;
+    /* border: 2px solid green; */
+}
+
+footer .foot-right img {
+    filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(158deg) brightness(103%) contrast(100%);
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+footer .foot-right .other-footer-information {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 230spx;
+    height: 50%;
+    /* border: 2px solid red; */
+}
+
+footer .foot-right .other-footer-information a{
+    text-decoration: none;
+    color:#FFF;
+    padding: 5px;
+    padding-right: 20px;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+footer .foot-right .other-footer-information p{
+    color:#FFF;
+    margin-inline-start: 0px;
+    margin-inline-end: 10px;
+    font-size: 16px;
+}
+
+footer p{
+    color:whitesmoke;
+    margin-left:0.5em;
+    margin-right:0.5em;
+}
+
+

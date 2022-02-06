@@ -1,0 +1,44 @@
+main{
+    min-height: 80vh;
+}
+
+section.userpage {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p.name{
+    margin: 0em;
+    font-size: 4em;
+    font-family: 'Bree Serif', serif;
+}
+
+div.profile-pic i{
+    font-size: 10em;
+}
+
+div.account{
+    font-family: 'Bree Serif', serif;
+}
+
+div.detail{
+    display: flex;
+}
+
+div.detail-title{
+    text-align: right;
+    padding-right: 1em;
+    font-family: 'Bree Serif', serif;
+}
+
+div.detail-data{
+    padding-right: 1em;
+    font-family: 'Bree Serif', serif;
+}
+
+div.edit-button{
+    font-family: 'Bree Serif', serif;
+}
